@@ -1,9 +1,12 @@
 
-
+# Nedan görs bara en gång
 # för att skapa ny git i en mapp = git init
 
 # lägg till i git hub      Filnamn
 #   git remote add origin https://xxxx
+
+---------------------------------------------------
+
 
 
 #lägga till filer  =  git add .
