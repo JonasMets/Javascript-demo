@@ -1,0 +1,22 @@
+
+
+# för att skapa ny git i en mapp = git init
+
+# lägg till i git hub      Filnamn
+#   git remote add origin https://xxxx
+
+
+#lägga till filer  =  git add .
+
+# för att spara filer = git commit -m "någon text"
+
+
+
+# för att synka till github = git push -u origin master
+
+
+# hämta hem ett projekt = git clone https:// xxxxxxxx
+
+# hämta de senaste ändringar  = git pull https:// xxxxxxxx
+
+
