@@ -5,14 +5,12 @@
     let selectButton = document.getElementByTagName('button');
     let selectButtonClass = document.getElementByClassName('btn');
 
-
   JQuery:
 
     let selectButtonId = $('#selectButton');
     let selectButtonTag = $('button');
     let selectButtonClass = $('.btn');
-
-
+    
 */
 
 // JQuery:  detta ska finnas i början av dokumentet
@@ -33,7 +31,7 @@ $(document).ready(function () {
   $('#divId2').hide();
   $('#divId2').show();
 
-  
+
   //   https://api.jquery.com/toggle/
   $( "#selectButton" ).click(function() {
     $( "#divId2" ).toggle( "slow", function() {
