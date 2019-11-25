@@ -1,0 +1,15 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.alertColor{
+  color: red;
+}
+
+
+.focus{
+  background-color: rgb(49, 170, 170);
+}
+
+
