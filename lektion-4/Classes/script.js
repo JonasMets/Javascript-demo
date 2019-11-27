@@ -33,6 +33,16 @@ $(function () {
 
 
   // ES6
+  // constructor(fullname){
+    //   this.fullName = fullname;
+      
+    //   this.firstName = function () {
+    //     return fullName.split(' ')[0];
+    //   }
+    //   this.lastName = function () {
+    //     return fullName.split(' ')[1];
+    //   }
+    // }
   class Person {
 
     constructor(firstname, lastname){
@@ -44,21 +54,10 @@ $(function () {
 
     }
 
-    // constructor(fullname){
-    //   this.fullName = fullname;
-      
-    //   this.firstName = function () {
-    //     return fullName.split(' ')[0];
-    //   }
-    //   this.lastName = function () {
-    //     return fullName.split(' ')[1];
-    //   }
-    // }
+  };
 
 
-  }
-
-  let user1 = new Person('Billy-Bob','Doe');
+  const user1 = new Person('Billy-Bob','Doe');
 
   document.write(user1.fullName());
 
@@ -67,6 +66,12 @@ $(function () {
 
   document.write(user1.address);
   console.log(user1);
+
+  // 
+  const user2 = new Person();
+  user2.firstname = 'John';
+
+  document.write(user2.firstname);
 
 
 })
