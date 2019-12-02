@@ -3,11 +3,7 @@ $(function() {
   // event för submit form
     $('#regform').submit((e)=> {
       e.preventDefault();
-
-      // console.log( $('#firstName').val());
-      // console.log( $('#lastName').val());
-
-
+      
       validateInput('#firstName');
       validateInput('#lastName');
 
