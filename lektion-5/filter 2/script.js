@@ -14,6 +14,9 @@ $(function () {
   // filter li med even/odd
   $( 'ul > li' ).filter( ":odd" ).css( "background-color", "blue" );
 
+  // filter med contains List item 1
+  $( 'ul > li' ).filter( ':contains(List item 1)' ).css( "background-color", "green" );
+
 
 
   // 
@@ -25,6 +28,8 @@ $(function () {
   // nameArray.splice(1,1);
   // console.log(nameArray);
 
+  // kollar om nameArray innehåller John
+  console.log(nameArray.includes('John'));
 
   // hitta namnet Billy
   let n = nameArray.indexOf("Billy");
